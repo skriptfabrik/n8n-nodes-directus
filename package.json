@@ -1,5 +1,5 @@
 {
-	"name": "@directus/n8n-nodes-directus",
+	"name": "@skriptfabrik/n8n-nodes-directus",
 	"version": "1.0.3",
 	"description": "n8n community node package for Directus CMS integration",
 	"keywords": [
@@ -8,14 +8,14 @@
 		"cms"
 	],
 	"license": "MIT",
-	"homepage": "https://github.com/directus/n8n-nodes-directus",
+	"homepage": "https://github.com/skriptfabrik/n8n-nodes-directus",
 	"author": {
-		"name": "Directus Labs",
-		"email": "hello@directus.io"
+		"name": "skriptfabrik GmbH",
+		"email": "info@skriptfabrik.com"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/directus/n8n-nodes-directus.git"
+		"url": "git+https://github.com/skriptfabrik/n8n-nodes-directus.git"
 	},
 	"engines": {
 		"node": ">=22.0.0"
@@ -62,5 +62,8 @@
 	},
 	"peerDependencies": {
 		"n8n-workflow": "*"
-	}
+	},
+  "publishConfig": {
+    "access": "public"
+  }
 }

@@ -10,12 +10,12 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 
 ### Package Name
 
-The package is published as `@directus/n8n-nodes-directus` on npm.
+The package is published as `@skriptfabrik/n8n-nodes-directus` on npm.
 
 ### From npm (when published)
 
 ```bash
-npm install @directus/n8n-nodes-directus
+npm install @skriptfabrik/n8n-nodes-directus
 ```
 
 ## Usage
@@ -25,10 +25,10 @@ npm install @directus/n8n-nodes-directus
 1. **Install the package** (when published):
 
    ```bash
-   npm install @directus/n8n-nodes-directus
+   npm install @skriptfabrik/n8n-nodes-directus
 
    # Or using pnpm
-   pnpm add @directus/n8n-nodes-directus
+   pnpm add @skriptfabrik/n8n-nodes-directus
    ```
 
 2. **Configure credentials** in n8n:
@@ -110,7 +110,7 @@ This project uses the official n8n-node CLI tool for development and follows n8n
 
 ```bash
 # Clone the repository
-git clone https://github.com/directus/n8n-nodes-directus.git
+git clone https://github.com/skriptfabrik/n8n-nodes-directus.git
 cd n8n-nodes-directus
 
 # Install dependencies
@@ -190,7 +190,7 @@ For testing the **Directus Trigger** node, you need to expose n8n via a public U
 
 ### Getting Help
 
-- Check the [GitHub Issues](https://github.com/directus/n8n-nodes-directus/issues) for known problems
+- Check the [GitHub Issues](https://github.com/skriptfabrik/n8n-nodes-directus/issues) for known problems
 - Run `pnpm test` to verify everything works
 - Use `pnpm test:coverage` to see test coverage
 
@@ -200,7 +200,7 @@ We welcome feedback and suggestions! Please help us improve this community node:
 
 ### Reporting Issues
 
-- **Bug Reports**: Use the [GitHub Issues](https://github.com/directus/n8n-nodes-directus/issues) page to report bugs
+- **Bug Reports**: Use the [GitHub Issues](https://github.com/skriptfabrik/n8n-nodes-directus/issues) page to report bugs
 - **Feature Requests**: Submit enhancement ideas through GitHub Issues
 - **Documentation**: Help improve our documentation by reporting unclear sections
 
@@ -244,6 +244,6 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 For issues and questions:
 
-- [GitHub Issues](https://github.com/directus/n8n-nodes-directus/issues)
+- [GitHub Issues](https://github.com/skriptfabrik/n8n-nodes-directus/issues)
 - [Directus Community](https://community.directus.io/)
 - [n8n Community](https://community.n8n.io/)
